@@ -7,7 +7,7 @@ import MainHeader from '../../components/MainHeader'
 // style
 import './style.scss';
 
-const GET_COMPANY_INFO =gql`
+const GET_COMPANY_INFO = gql`
     {
         company {
             name
